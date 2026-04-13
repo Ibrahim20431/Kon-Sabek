@@ -25,11 +25,11 @@ export function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
          {/* Logo */}
          
-
       <a href="#hero" className="flex items-center gap-2">
   <img
     src="/logo.png"
     alt="Logo"
+    className="w-8 h-auto md:w-10 object-contain"
   />
 </a>
           
