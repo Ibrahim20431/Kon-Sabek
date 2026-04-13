@@ -29,7 +29,7 @@ export function Header() {
   <img
     src="/logo.png"
     alt="Logo"
-    className="w-10 h-auto md:w-12 object-contain"
+    className="w-12 h-auto md:w-14 object-contain"
   />
 </a>
           
