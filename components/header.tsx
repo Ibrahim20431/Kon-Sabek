@@ -26,13 +26,13 @@ export function Header() {
           {/* Logo */}
           <a href="#hero" className="flex items-center gap-2">
             <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary flex items-center justify-center">
-              <Image
-          src="/logo.png"
-          alt="كن سابق"
-          width={50}
-          height={50}
-        />
-        <span className="text-xl font-bold">كن سابق</span>
+              <span className="text-primary-foreground font-bold text-lg md:text-xl">
+                ك
+              </span>
+            </div>
+            <span className="font-bold text-lg md:text-xl text-primary">
+              {t("كن سابق", "Be Ahead")}
+            </span>
           </a>
 
           {/* Desktop Navigation */}
