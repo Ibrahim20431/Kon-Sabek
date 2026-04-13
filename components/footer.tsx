@@ -87,9 +87,9 @@ export function Footer() {
             </h4>
             <ul className="space-y-3 text-primary-foreground/70">
               <li dir="ltr" className="text-right rtl:text-right">
-                +20 100 000 0000
+                +20 109 6997 083
               </li>
-              <li>info@beahead.com</li>
+              <li>zclick4tech@gmail.com</li>
               <li>
                 {t("مصر - أونلاين في كل مكان", "Egypt - Online Everywhere")}
               </li>
