@@ -8,13 +8,13 @@ const features = [
     icon: Users,
     ar: {
       title: "مجموعات صغيرة",
-      desc: "لا تتجاوز المجموعة ٥ طلاب لضمان التركيز والاهتمام الفردي بكل طالب",
+      desc: "لا تتجاوز المجموعة 20 طلاب لضمان التركيز والاهتمام الفردي بكل طالب",
     },
     en: {
       title: "Small Groups",
-      desc: "Groups do not exceed 5 students to ensure focus and individual attention for each student",
+      desc: "Groups do not exceed 20 students to ensure focus and individual attention for each student",
     },
-    stat: { ar: "٥", en: "5" },
+    stat: { ar: "15", en: "15" },
     statLabel: { ar: "طلاب بالمجموعة", en: "students per group" },
   },
   {
