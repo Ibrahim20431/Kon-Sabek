@@ -24,7 +24,7 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
          {/* Logo */}
-          <a href="#hero" className="flex items-center gap-2">
+          /*<a href="#hero" className="flex items-center gap-2">
             <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-primary flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg md:text-xl">
                 ك
@@ -33,7 +33,18 @@ export function Header() {
             <span className="font-bold text-lg md:text-xl text-primary">
               {t("كن سابق", "Be Ahead")}
             </span>
-          </a>
+          </a>*/
+
+      <a href="#hero" className="flex items-center gap-2">
+  <Image
+    src="/logo.png"
+    alt="Logo"
+    width={48}
+    height={48}
+    className="rounded-full"
+  />
+</a>
+          
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-6">
