@@ -29,7 +29,7 @@ export function ContactSection() {
     );
   };
 
-  const whatsappNumber = "201000000000"; // Replace with actual number
+  const whatsappNumber = "201210394096"; // Replace with actual number
   const whatsappMessage = encodeURIComponent(
     language === "ar"
       ? "مرحباً، أود الاستفسار عن خدماتكم التعليمية"
@@ -70,7 +70,7 @@ export function ContactSection() {
                     {t("اتصل بنا", "Call Us")}
                   </p>
                   <p className="font-medium text-foreground" dir="ltr">
-                    +20 100 000 0000
+                    +20 109 699 7083
                   </p>
                 </div>
               </div>
@@ -83,7 +83,8 @@ export function ContactSection() {
                     {t("البريد الإلكتروني", "Email")}
                   </p>
                   <p className="font-medium text-foreground">
-                    info@beahead.com
+                    zclick4tech@gmail.com
+
                   </p>
                 </div>
               </div>
